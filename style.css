@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background: url('assets/blendr.png') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    right: 480px;
+    bottom: 1px;
+    z-index: 2;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+.logo img {
+    height: 120px;
+    width: auto;
+    display: block;
+}
+
+.center-gif {
+    position: absolute;
+    top: 55%;
+    left: 32%; /* Сдвиг вправо */
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.center-gif img {
+    max-width: 40vw;
+    max-height: 60vh;
+    display: block;
+}
+
+.top-text {
+    position: absolute;
+    top: 45px;
+    right: 40px;
+    z-index: 10;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    color: #fff;
+    max-width: 600px; /* Ограничение ширины */
+
+
+}
+.ca-address {
+    position: absolute;
+    top: 20%; /* Расстояние от верхней части */
+    left: 25%;
+    transform: translateX(-50%); /* Центрирование по горизонтали */
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 20px; /* Размер шрифта */
+    color: #fff; /* Цвет текста */
+
+
+
+    z-index: 10; /* Убедись, что текст выше других элементов */
+}
+.bottom-text {
+    position: absolute;
+    right: 15px;
+    bottom: 280px; 
+    z-index: 10;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    color: #fff;
+    max-width: 600px; /* Ограничение ширины */
+}
+
+.x-link {
+    position: absolute;
+    right: 40px;
+    bottom: 32px;
+    z-index: 2;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+.x-link:hover {
+    opacity: 1;
+}
+
+.x-link img {
+    height: 56px;
+    width: auto;
+    display: block;
+}
+.tg-link {
+    position: absolute;
+    right: 110px;
+    bottom: 32px;
+    z-index: 2;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+.tg-link:hover {
+    opacity: 1;
+}
+
+.tg-link img {
+    height: 56px;
+    width: auto;
+    display: block;
+}
